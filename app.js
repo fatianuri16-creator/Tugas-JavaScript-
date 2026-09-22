@@ -112,8 +112,30 @@ if (namaPelanggan) {
 // TODO 3:
 // 1. Buat 3 variabel poin transaksi: "poinKopi", "poinMakanan", dan "poinMerchandise"
 //    (isi dengan angka bulat bebas, misal: 45, 35, 20).
+let poinKopi = 45;
+
+let poinMakanan = 35;
+
+let poinMerchandise = 20;
+
 // 2. Buat variabel "totalPoin" yang menjumlahkan ketiga variabel poin di atas.
+let totalPoin =
+    poinKopi +
+    poinMakanan +
+    poinMerchandise;
+
 // 3. Cetak rincian perolehan poin dan totalPoin ke Console menggunakan console.log().
+console.log("=== RINCIAN PEROLEHAN POIN ===");
+
+console.log("Pelanggan        : " + namaPelanggan);
+
+console.log("Poin Kopi        : " + poinKopi);
+
+console.log("Poin Makanan     : " + poinMakanan);
+
+console.log("Poin Merchandise : " + poinMerchandise);
+
+console.log("Total Poin       : " + totalPoin);
 
 
 
